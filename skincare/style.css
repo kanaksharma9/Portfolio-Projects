@@ -1,0 +1,160 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.landing{
+    display: block;
+    margin: 50px 50px;
+    background-color: #80808067;
+    border-radius: 10%;
+    height: 500px;
+}
+
+.image{
+    display: flex;
+    padding: 30px;
+}
+
+.textland{
+    font-size: 15px;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+
+.landimg{
+    margin-left: 20%;
+    margin-top: 6%;
+    
+}
+
+#landingimg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.buttons{
+    display: flex;
+}
+
+#btn1{
+    margin-right: 10px;
+    background-color: antiquewhite;
+    border-radius: 40%;
+    padding: 5%;
+}
+
+#btn2{
+    width: 110px;
+    background-color: antiquewhite;
+    border-radius: 40%;
+    padding: 5%;
+}
+
+#explore{
+    margin-left: 55px;
+}
+
+.products{
+    display: flex;
+    margin: 10px 50px;
+}
+.container {
+    position: relative;
+    display: inline-block;
+}
+.images{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 5%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+    display: block;
+}
+
+.content{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.container:hover .images{
+    opacity: 0.3;
+}
+
+.container:hover .content {
+    opacity: 1;
+}
+
+.subscription{
+    margin: 30px 50px;
+    background-color: rgb(6, 75, 52);
+    height: 300px;
+    border-radius: 10%;
+    display: flex;
+}
+
+.sub{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.search{
+    background-color: white;
+    display: flex;
+    height: 50px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 25%;
+    justify-content: fit-content;
+}
+
+.subtext{
+    margin-left: 150px;
+    background-color: gray;
+    border-radius: 25%;
+    width: 90px;
+}
+
+#mail{
+    margin-left: 20px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+#cribe{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contact{
+    background-color: gray;
+    height: 200px;
+    display: flex;
+}
+.contacts{
+    margin: 50px 200px 0 400px;
+}
+
+.socials{
+    margin: 60px;
+}
+
+.icons{
+    width: 40px;
+    height: 30px;
+}
